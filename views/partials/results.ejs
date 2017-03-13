@@ -1,0 +1,11 @@
+<a href='/suggested'>
+	<div class='well' hidden>
+		<h2>
+			<%  for(var i = 0; i< 12; i++){%>
+				<a id="eachPin" data-pin-do="embedPin" href="<%= pins[i].url %>"></a>
+			<% }; %>
+		</h2>
+	</div>
+</a>
+
+

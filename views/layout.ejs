@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pinsive</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Nunito|Open+Sans:300|Pacifico" rel="stylesheet">
+</head>
+<style type="text/css">
+	body {
+		background-color: gainsboro;
+		color: #464742;	
+	}
+	h4 {
+		font-style: italic;
+		margin-left: 100px;
+	}
+	.well {
+		background-color: #464742;
+		margin: auto;
+	}
+	h2 {
+		margin: auto;
+		padding-left: 50px;
+		font-family: 'Nunito', sans-serif;
+	}
+	span {
+		padding: 10px 20px 10px 20px;
+	}
+	h1 {
+		font-family: 'Pacifico', cursive;
+		font-size: 64px;
+		text-shadow: #464742 2px 2px 1px;
+		color: #c92228;
+	}
+	h5 {
+		font-family: 'Nunito', sans-serif;
+		font-style: italic;
+		font-size: 14px;
+		margin-left: 40px;
+	}
+</style>
+<body>
+	<div class="container">
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<%- body %>
+
+					<hr>
+					<a href="/suggested" class="btn btn-danger">Main Page</a>
+					<a href="/auth/logout" class="btn btn-primary">Log Out</a>
+					<a href="/profile" class="btn btn-default" disabled="disabled">Profile</a> 
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<br>
+					<% include partials/alerts %>
+				</div>
+			</div>
+	</div>
+	<script src="//code.jquery.com/jquery.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="/main.js"></script>
+	<script async defer src="//assets.pinterest.com/js/pinit.js"></script>
+	<script src="https://cdn.jsdelivr.net/lodash/4.17.4/lodash.min.js"></script>
+</body>
+</html>
