@@ -30,8 +30,8 @@ A link in your readme.md to the publically-accessible user stories you created
 
 #Progress:
 *Day 1 - Planned out wireframe for initial idea/vision. Planned out routes for views. Created database. Got passport config to authenticate user.
-![wireframe1](./img/wireframe1.jpg)
-![wireframe2](./img/wireframe2.jpg)
+![wireframe1](/img/wireframe1.jpg)
+![wireframe2](/img/wireframe2.jpg)
 
 *Day 2 - Studied/implemented API, installed additional npm modules that were not expected and ensured local host was wroking under https. Due to limitations of API, webscraped certain inforamtion which would be needed to make functional app.
 
